@@ -1,0 +1,2 @@
+require_relative 'google_chrome_identity/version'
+require_relative 'strategies/google_chrome_identity'
