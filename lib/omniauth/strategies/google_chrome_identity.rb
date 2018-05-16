@@ -2,7 +2,7 @@ require 'omniauth/strategies/oauth2'
 
 module OmniAuth
   module Strategies
-    class GoogleChromeIdentity < Omniauth::Strategies::OAuth2
+    class GoogleChromeIdentity < OmniAuth::Strategies::OAuth2
 
       args [:client_id]
 
